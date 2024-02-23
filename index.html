@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b31db5bc6b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.css">
+    <link rel="shortcut icon" href="img/burger.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Hamburgueria</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="red darken-4">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo">Hamburgueria</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#"><i class="material-icons">search</i></a></li>
+                    <li><a href="#"><i class="material-icons">person</i></a></li>
+                    <li><a href="#"><i class="material-icons">shopping_cart</i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#"><i class="material-icons left">shopping_basket</i>Meus Pedidos</a></li>
+            <hr>
+            <li><a href="#"><i class="material-icons left">location_on</i>Restaurantes Próximos</a></li>
+            <hr>
+            <li><a href="#"><i class="material-icons">favorite</i>Meus Favoritos</a></li>
+            <hr>
+            <li><a href="#"><i class="material-icons">notifications</i>Novidades</a></li>
+        </ul>
+    </header>
+
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large red darken-4 pulse">
+            <i class="material-icons">person</i>
+        </a>
+        <ul>
+            <li><a href="https://github.com/kaiobispo" target="_blank" class="btn-floating black"><i class="fa-brands fa-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/kaio-bispo-7413b02b3/" target="_blank" class="btn-floating blue"><i class="fa-brands fa-linkedin fa-xl"></i></a></li>
+            
+        </ul>
+    </div>
+
+    <div class="slider">
+        <ul class="slides">
+            <li>
+                <img src="img/hamburguer-grelhado.jpg" alt="" style="height: -95vh;background-repeat: no-repeat;background-position: center center;background-size: cover;">
+                <div class="caption center-align">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/hamburguer-de-carne-grelhada-com-batatas.avif" alt="" style="height: -95vh;background-repeat: no-repeat;background-position: center center;background-size: cover;">
+                <div class="caption left-align">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/cheeseburguer-grelhado-com-tomate.jpg" alt="" style="height: -95vh;background-repeat: no-repeat;background-position: center center;background-size: cover;">
+                <div class="caption right-align">
+                    <h3>Lorem ipsum dolor sit amet.</h3>
+                    <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <section class="primeira-section-cards red darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col s6 m4 l4 center">
+                    <div class="card-panel">
+                        <a href="#"><img src="img/hamburger.png" alt="" style="height: 50px;"></a>
+                        <p>Lanches</p>
+                    </div>
+                </div>
+                <div class="col s6 m4 l4 center">
+                    <div class="card-panel">
+                        <a href="#"><img src="img/ice-cream.png" alt="" style="height: 50px;"></a>
+                        <p>Sobremesas</p>
+                    </div>
+                </div>
+                <div class="col s6 m4 l4 center">
+                    <div class="card-panel">
+                        <a href="#"><img src="img/soft-drink.png" alt="" style="height: 50px;"></a>
+                        <p>Bebidas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="segunda-seciton-de-cards">
+        <div class="container">
+            <div class="row">
+                <h3 class="left-align" style="font-weight: 900;">Hamburguers, Combos ou Monte o seu agora</h3>
+                <ul class="pagination">
+                    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                    <li class="active red darken-2"><a href="#!">1</a></li>
+                    <li class="waves-effect"><a href="#!">2</a></li>
+                    <li class="waves-effect"><a href="#!">3</a></li>
+                    <li class="waves-effect"><a href="#!">4</a></li>
+                    <li class="waves-effect"><a href="#!">5</a></li>
+                    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                </ul>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/hamburguer.jpg"
+                                alt="">
+                            <span class="card-title">Hamburguer</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, dolorem.</p>
+                        </div>
+                        <div class="card-action">
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/hamburguer.jpg"
+                                alt="">
+                            <span class="card-title">Hamburguer</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, dolorem.</p>
+                        </div>
+                        <div class="card-action">
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/hamburguer.jpg"
+                                alt="">
+                            <span class="card-title">Hamburguer</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, dolorem.</p>
+                        </div>
+                        <div class="card-action">
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-sorvetes">
+        <div class="container">
+            <div class="row">
+                <h3 class="white-text" style="font-weight: 900;">Sorvetes e Milks Shakes</h3>
+                <ul class="pagination">
+                    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                    <li class="active red darken-4"><a href="#!">1</a></li>
+                    <li class="waves-effect"><a href="#!">2</a></li>
+                    <li class="waves-effect"><a href="#!">3</a></li>
+                    <li class="waves-effect"><a href="#!">4</a></li>
+                    <li class="waves-effect"><a href="#!">5</a></li>
+                    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                </ul>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/sorvetes.jpg"
+                                alt="">
+                            <span class="card-title">Sorvetes</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, impedit?</p>
+                        </div>
+                        <div class="card-action">
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/sorvetes.jpg"
+                                alt="">
+                            <span class="card-title">Sorvetes</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, impedit?</p>
+                        </div>
+                        <div class="card-action">
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/sorvetes.jpg"
+                                alt="">
+                            <span class="card-title">Sorvetes</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, impedit?</p>
+                        </div>
+                        <div class="card-action">
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="section-bebidas">
+        <div class="container">
+            <div class="row">
+                <h3 style="font-weight: 900;">Bebidas</h3>
+                <ul class="pagination">
+                    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                    <li class="active red darken-2"><a href="#!">1</a></li>
+                    <li class="waves-effect"><a href="#!">2</a></li>
+                    <li class="waves-effect"><a href="#!">3</a></li>
+                    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                </ul>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/refrigerantes.webp"
+                                alt="">
+                            <span class="card-title">Bebidas</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, aliquid?</p>
+                        </div>
+                        <div class="card-action">
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/refrigerantes.webp"
+                                alt="">
+                            <span class="card-title">Bebidas</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, aliquid?</p>
+                        </div>
+                        <div class="card-action">
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l4">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="img/refrigerantes.webp"
+                                alt="">
+                            <span class="card-title">Bebidas</span>
+                        </div>
+                        <div class="card-content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, aliquid?</p>
+                        </div>
+                        <div class="card-action">
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                            <i class="material-icons orange-text">star</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="localization">
+        <div class="container">
+            <h3 class="white-text" style="font-weight: 900;">Nosso Estabelecimento</h3>
+            <div class="row">
+                <div class="col s12 m6 l6">
+                    <div class="card">
+                        <div class="card-content" style="background: url(img/garcons-felizes-trazendo-comida-a-mesa-e-servindo-grupo-de-amigos-em-um-restaurante_637285-4076.jpg)no-repeat center center/cover; height: 300px;"></div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="card">
+                        <div class="card-content" style="background: url(img/garcons-felizes-trazendo-comida-a-mesa-e-servindo-grupo-de-amigos-em-um-restaurante_637285-4076.jpg)no-repeat center center/cover; height: 300px;"></div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="card">
+                        <div class="card-content" style="background: url(img/garcons-felizes-trazendo-comida-a-mesa-e-servindo-grupo-de-amigos-em-um-restaurante_637285-4076.jpg)no-repeat center center/cover; height: 300px;"></div>
+                    </div>
+                </div>
+                <div class="col s12 m6 l6">
+                    <div class="card">
+                        <div class="card-content" style="background: url(img/garcons-felizes-trazendo-comida-a-mesa-e-servindo-grupo-de-amigos-em-um-restaurante_637285-4076.jpg)no-repeat center center/cover; height: 300px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer red darken-4 center">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <a href="https://github.com/kaiobispo" target="_blank" class="black-text"><i class="fa-brands fa-github fa-xl"></i></a>
+                    
+                    <a href="https://www.linkedin.com/in/kaio-bispo-7413b02b3/" target="_blank" class="blue-text"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+                </div>
+            </div>
+            &copy; 2024 criado por kaio bispo
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="javascript/jquery-3.7.1.min.js"></script>
+    <script src="node_modules/materialize-css/dist/js/materialize.js"></script>
+    <script src="javascript/script.js"></script>
+    <script>
+        $(document).ready(() => {
+            $('.sidenav').sidenav()
+        })
+        $(document).ready(() => {
+            $('.fixed-action-btn').floatingActionButton({
+                hoverEnabled: false
+            })
+        })
+        $(document).ready(() => {
+            $('.slider').slider({
+                height: 550
+            })
+        })
+
+    </script>
+</body>
+
+</html>

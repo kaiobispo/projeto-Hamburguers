@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section-sorvetes{
+    border-radius: 20px;
+    background-color: rgb(31, 30, 30);
+}
+.localization{
+    border-radius: 20px;
+    background-color: rgb(31, 30, 30);
+}
